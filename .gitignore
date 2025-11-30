@@ -1,0 +1,15 @@
+# Python junk
+__pycache__/
+*.py[cod]
+venv/
+
+# Environmental variables (secrets)
+.env
+
+# DATA - SAFETY FIRST!
+# We ignore these so we don't accidentally publish UDI's text
+data/
+*.json
+*.txt
+*.csv
+chroma_db/
