@@ -3,12 +3,11 @@ __pycache__/
 *.py[cod]
 venv/
 
-# Environmental variables (secrets)
+
 .env
 
-# DATA - SAFETY FIRST!
-# We ignore these so we don't accidentally publish UDI's text
 data/
+src/data/
 *.json
 *.txt
 *.csv
