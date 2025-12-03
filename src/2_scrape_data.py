@@ -10,7 +10,7 @@ OUTPUT_DIR = "data/scraped_text"
 HEADERS = {'User-Agent': 'MyStudentProject/1.0 (Educational RAG Experiment)'}
 
 
-LIMIT = 200
+LIMIT = 400
 
 def scrape_all_urls():
     
